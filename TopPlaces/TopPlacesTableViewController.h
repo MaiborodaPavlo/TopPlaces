@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TopPlacesTableViewController.h
 //  TopPlaces
 //
 //  Created by Pavel on 27.02.2018.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TopPlacesTableViewController : UITableViewController
 
+@property (strong, nonatomic) NSDictionary *places;
 
 @end
-

@@ -8,24 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		E91BDDF72045840D004D43B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BDDF62045840D004D43B3 /* AppDelegate.m */; };
-		E91BDDFA2045840D004D43B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BDDF92045840D004D43B3 /* ViewController.m */; };
-		E91BDDFD2045840D004D43B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91BDDFB2045840D004D43B3 /* Main.storyboard */; };
+		E91BDDFD2045840D004D43B3 /* Main_iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91BDDFB2045840D004D43B3 /* Main_iphone.storyboard */; };
 		E91BDDFF2045840D004D43B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91BDDFE2045840D004D43B3 /* Assets.xcassets */; };
 		E91BDE022045840D004D43B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91BDE002045840D004D43B3 /* LaunchScreen.storyboard */; };
 		E91BDE052045840D004D43B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BDE042045840D004D43B3 /* main.m */; };
+		E91BDE0F20458626004D43B3 /* TopPlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BDE0E20458626004D43B3 /* TopPlacesTableViewController.m */; };
+		E91BDE14204587D9004D43B3 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BDE13204587D9004D43B3 /* FlickrFetcher.m */; };
+		E91BDE172045A604004D43B3 /* PhotoAtPlaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BDE162045A604004D43B3 /* PhotoAtPlaceTableViewController.m */; };
+		E91BDE1A2045C025004D43B3 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BDE192045C025004D43B3 /* ImageViewController.m */; };
+		E91BDE1D2045C77E004D43B3 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BDE1C2045C77E004D43B3 /* DataManager.m */; };
+		E91BDE202045D25A004D43B3 /* ViewedPhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BDE1F2045D25A004D43B3 /* ViewedPhotosTableViewController.m */; };
+		E91BDE222046AE0F004D43B3 /* Main_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91BDE212046AE0F004D43B3 /* Main_ipad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E91BDDF22045840D004D43B3 /* TopPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91BDDF52045840D004D43B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E91BDDF62045840D004D43B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E91BDDF82045840D004D43B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E91BDDF92045840D004D43B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E91BDDFC2045840D004D43B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E91BDDFC2045840D004D43B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iphone.storyboard; sourceTree = "<group>"; };
 		E91BDDFE2045840D004D43B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E91BDE012045840D004D43B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E91BDE032045840D004D43B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E91BDE042045840D004D43B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E91BDE0D20458626004D43B3 /* TopPlacesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopPlacesTableViewController.h; sourceTree = "<group>"; };
+		E91BDE0E20458626004D43B3 /* TopPlacesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopPlacesTableViewController.m; sourceTree = "<group>"; };
+		E91BDE11204587D9004D43B3 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		E91BDE12204587D9004D43B3 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		E91BDE13204587D9004D43B3 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		E91BDE152045A604004D43B3 /* PhotoAtPlaceTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoAtPlaceTableViewController.h; sourceTree = "<group>"; };
+		E91BDE162045A604004D43B3 /* PhotoAtPlaceTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoAtPlaceTableViewController.m; sourceTree = "<group>"; };
+		E91BDE182045C025004D43B3 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		E91BDE192045C025004D43B3 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		E91BDE1B2045C77E004D43B3 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		E91BDE1C2045C77E004D43B3 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		E91BDE1E2045D25A004D43B3 /* ViewedPhotosTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewedPhotosTableViewController.h; sourceTree = "<group>"; };
+		E91BDE1F2045D25A004D43B3 /* ViewedPhotosTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewedPhotosTableViewController.m; sourceTree = "<group>"; };
+		E91BDE212046AE0F004D43B3 /* Main_ipad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main_ipad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +76,37 @@
 		E91BDDF42045840D004D43B3 /* TopPlaces */ = {
 			isa = PBXGroup;
 			children = (
-				E91BDDF52045840D004D43B3 /* AppDelegate.h */,
-				E91BDDF62045840D004D43B3 /* AppDelegate.m */,
-				E91BDDF82045840D004D43B3 /* ViewController.h */,
-				E91BDDF92045840D004D43B3 /* ViewController.m */,
-				E91BDDFB2045840D004D43B3 /* Main.storyboard */,
+				E91BDE10204587D9004D43B3 /* Flickr Fetcher */,
+				E91BDDFB2045840D004D43B3 /* Main_iphone.storyboard */,
+				E91BDE212046AE0F004D43B3 /* Main_ipad.storyboard */,
+				E91BDE0D20458626004D43B3 /* TopPlacesTableViewController.h */,
+				E91BDE0E20458626004D43B3 /* TopPlacesTableViewController.m */,
+				E91BDE152045A604004D43B3 /* PhotoAtPlaceTableViewController.h */,
+				E91BDE162045A604004D43B3 /* PhotoAtPlaceTableViewController.m */,
+				E91BDE1E2045D25A004D43B3 /* ViewedPhotosTableViewController.h */,
+				E91BDE1F2045D25A004D43B3 /* ViewedPhotosTableViewController.m */,
+				E91BDE182045C025004D43B3 /* ImageViewController.h */,
+				E91BDE192045C025004D43B3 /* ImageViewController.m */,
+				E91BDE1B2045C77E004D43B3 /* DataManager.h */,
+				E91BDE1C2045C77E004D43B3 /* DataManager.m */,
 				E91BDDFE2045840D004D43B3 /* Assets.xcassets */,
 				E91BDE002045840D004D43B3 /* LaunchScreen.storyboard */,
+				E91BDDF52045840D004D43B3 /* AppDelegate.h */,
+				E91BDDF62045840D004D43B3 /* AppDelegate.m */,
 				E91BDE032045840D004D43B3 /* Info.plist */,
 				E91BDE042045840D004D43B3 /* main.m */,
 			);
 			path = TopPlaces;
+			sourceTree = "<group>";
+		};
+		E91BDE10204587D9004D43B3 /* Flickr Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				E91BDE11204587D9004D43B3 /* FlickrAPIKey.h */,
+				E91BDE12204587D9004D43B3 /* FlickrFetcher.h */,
+				E91BDE13204587D9004D43B3 /* FlickrFetcher.m */,
+			);
+			path = "Flickr Fetcher";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E91BDE022045840D004D43B3 /* LaunchScreen.storyboard in Resources */,
+				E91BDE222046AE0F004D43B3 /* Main_ipad.storyboard in Resources */,
 				E91BDDFF2045840D004D43B3 /* Assets.xcassets in Resources */,
-				E91BDDFD2045840D004D43B3 /* Main.storyboard in Resources */,
+				E91BDDFD2045840D004D43B3 /* Main_iphone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E91BDDFA2045840D004D43B3 /* ViewController.m in Sources */,
+				E91BDE1A2045C025004D43B3 /* ImageViewController.m in Sources */,
+				E91BDE172045A604004D43B3 /* PhotoAtPlaceTableViewController.m in Sources */,
+				E91BDE1D2045C77E004D43B3 /* DataManager.m in Sources */,
 				E91BDE052045840D004D43B3 /* main.m in Sources */,
+				E91BDE202045D25A004D43B3 /* ViewedPhotosTableViewController.m in Sources */,
+				E91BDE0F20458626004D43B3 /* TopPlacesTableViewController.m in Sources */,
+				E91BDE14204587D9004D43B3 /* FlickrFetcher.m in Sources */,
 				E91BDDF72045840D004D43B3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,12 +195,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E91BDDFB2045840D004D43B3 /* Main.storyboard */ = {
+		E91BDDFB2045840D004D43B3 /* Main_iphone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E91BDDFC2045840D004D43B3 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main_iphone.storyboard;
 			sourceTree = "<group>";
 		};
 		E91BDE002045840D004D43B3 /* LaunchScreen.storyboard */ = {
